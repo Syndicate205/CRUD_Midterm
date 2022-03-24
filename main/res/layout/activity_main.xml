@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/idName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/hint1"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/idAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/hint2"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/idGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/hint3"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/idAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/hint5"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/idStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/hint4"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/idBtnAddData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/btn1"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/idBtnReadData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/btn2"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/idBtnDeleteAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/btn5"
+        android:textAllCaps="false" />
+
+</LinearLayout>

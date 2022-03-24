@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Midterm</string>
+
+    <string name="hint1">Enter Name</string>
+    <string name="hint2">Enter Age</string>
+    <string name="hint3">Enter Gender</string>
+    <string name="hint4">Enter Status</string>
+    <string name="hint5">Enter Address</string>
+
+    <string name="rv_name">Name</string>
+    <string name="rv_age">Age</string>
+    <string name="rv_gender">Gender</string>
+    <string name="rv_status">Status</string>
+    <string name="rv_address">Address</string>
+
+    <string name="display1">Enter Name</string>
+    <string name="display2">Enter Age</string>
+    <string name="display3">Enter Gender</string>
+    <string name="display4">Enter Status</string>
+    <string name="display5">Enter Address</string>
+
+    <string name="btn1">Add Data</string>
+    <string name="btn2">Read All Data</string>
+    <string name="btn3">Update Data</string>
+    <string name="btn4">Delete Data</string>
+    <string name="btn5">Delete All Data</string>
+    <string name="btn6">Read Data</string>
+
+</resources>

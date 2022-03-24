@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".UpdateRecordActivity">
+
+    <EditText
+        android:id="@+id/idUDRecordName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/display1"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/idUDRecordAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/display2"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/idUDRecordGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/display3"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/idUDRecordAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/display5"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/idUDRecordStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/display4"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/idBtnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/btn3"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/idBtnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/btn4"
+        android:textAllCaps="false" />
+
+</LinearLayout>
